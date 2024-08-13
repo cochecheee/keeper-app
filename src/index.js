@@ -13,7 +13,6 @@ ReactDOM.render(<App />, document.getElementById('root'))
 //5. Create a Note.jsx component to show a <div> element with a
 //<h1> for a title and a <p> for the content.
 
-//Challenge. Render all the notes inside notes.js as a seperate Note
-//component.
+//Challenge. Render all the notes inside notes.js as a seperate Note component.
 
 
