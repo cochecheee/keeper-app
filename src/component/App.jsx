@@ -41,7 +41,9 @@ function App() {
     }
 
     function deleteNote(id) {
-        console.log("item deleted");
+        setListNote(prevList => {
+            return prevList.filter(note => note.key !== id)
+        })
 
     }
 
